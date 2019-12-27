@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 
-console.log('Running test!!')
+const Runner = require('./runner')
