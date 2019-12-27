@@ -12,6 +12,10 @@ class Runner {
     for (let file of files) {
       const filepath = path.join(targetPath, file)
       const stats = await fs.promises.lstat(filepath)
+
+      if (stats.isFile()) {
+
+      } else if (stats.isDirectory())
     }
   }
 }
