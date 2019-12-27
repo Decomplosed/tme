@@ -6,6 +6,10 @@ class Runner {
     this.testFiles = []
   }
 
+  async runTest() {
+    
+  }
+
   async collectFiles(targetPath) {
     const files = await fs.promises.readdir(targetPath)
 
