@@ -14,7 +14,7 @@ class Runner {
       const stats = await fs.promises.lstat(filepath)
 
       if (stats.isFile() && file.includes('.test.js')) {
-
+        this.testFiles.push({ name: filepath })
       } else if (stats.isDirectory()) {
 
       }
