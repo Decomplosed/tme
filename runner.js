@@ -16,7 +16,7 @@ class Runner {
       if (stats.isFile() && file.includes('.test.js')) {
         this.testFiles.push({ name: filepath })
       } else if (stats.isDirectory()) {
-
+        const childFiles = await fs.promises.readdir(filepath)
       }
     }
   }
