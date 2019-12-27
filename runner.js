@@ -6,7 +6,7 @@ class Runner {
   }
 
   async collectFiles(targetPath) {
-
+    const files = await fs.promises.readdir(targetPath)
   }
 }
 
