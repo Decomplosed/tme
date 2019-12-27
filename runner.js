@@ -3,7 +3,7 @@ const path = require('path')
 
 class Runner {
   constructor() {
-    this.files = []
+    this.testFiles = []
   }
 
   async collectFiles(targetPath) {
