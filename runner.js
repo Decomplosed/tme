@@ -5,7 +5,7 @@ class Runner {
     this.files = []
   }
 
-  collectFiles() {
+  async collectFiles(targetPath) {
 
   }
 }
