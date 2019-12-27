@@ -13,9 +13,11 @@ class Runner {
       const filepath = path.join(targetPath, file)
       const stats = await fs.promises.lstat(filepath)
 
-      if (stats.isFile()) {
+      if (stats.isFile() && file.includes('.test.js')) {
 
-      } else if (stats.isDirectory())
+      } else if (stats.isDirectory()) {
+
+      }
     }
   }
 }
