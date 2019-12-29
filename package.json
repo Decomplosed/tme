@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Decomplosed/tme.git~/issues"
   },
-  "homepage": "https://github.com/Decomplosed/tme.git~#readme"
+  "homepage": "https://github.com/Decomplosed/tme.git~#readme",
+  "dependencies": {
+    "chalk": "^3.0.0"
+  }
 }
