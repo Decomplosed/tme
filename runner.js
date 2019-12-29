@@ -9,6 +9,8 @@ class Runner {
 
   async runTests() {
     for (let file of this.testFiles) {
+      console.log(chalk.gray(`----${file.name}`))
+
       const beforeEaches = []
 
       global.beforeEach = (fn) => {
