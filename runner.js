@@ -20,6 +20,8 @@ class Runner {
           fn()
           console.log(`OK - ${desc}`)
         } catch (err) {
+          console.log(`X - ${desc}`)
+          console.log(err);
         }
       }
 
