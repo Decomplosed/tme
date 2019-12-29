@@ -28,7 +28,7 @@ class Runner {
       try {
         require(file.name)
       } catch (err) {
-
+        console.log(err)
       }
     }
   }
