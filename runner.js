@@ -23,8 +23,9 @@ class Runner {
           fn()
           console.log(chalk.green(`\tOK - ${desc}`))
         } catch (err) {
+          const message = err.message.replace(/\n/g, '\n\t\t')
           console.log(chalk.red(`\tX - ${desc}`))
-          console.log(chalk.red('\t', err.message))
+          console.log(chalk.red('\t', message))
         }
       }
 
