@@ -9,4 +9,6 @@ const render = async filename => {
     runScripts: 'dangerously',
     resources: 'usable'
   })
+
+  return dom
 }
