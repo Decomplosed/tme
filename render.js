@@ -12,3 +12,5 @@ const render = async filename => {
 
   return dom
 }
+
+module.exports = render
