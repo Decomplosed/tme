@@ -12,5 +12,7 @@ it('show a success message with a valid email', async () => {
 
   const input = dom.window.document.querySelector('input')
   input.value = 'fsdfds@fssadf.com'
-
+  dom.window.document
+    .querySelector('form')
+    .dispatchEvent(new dom.window.Event('submit'))
 })
