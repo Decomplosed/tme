@@ -7,5 +7,6 @@ const render = async filename => {
 
   const dom = await jsdom.fromFile(filePath, {
     runScripts: 'dangerously',
+    resources: 'usable'
   })
 }
