@@ -6,6 +6,6 @@ const render = async filename => {
   const filePath = path.join(pricess.cwd(), filename)
 
   const dom = await jsdom.fromFile(filePath, {
-    
+    runScripts: 'dangerously',
   })
 }
