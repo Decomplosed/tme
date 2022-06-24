@@ -22,6 +22,6 @@
   "homepage": "https://github.com/Decomplosed/tme.git~#readme",
   "dependencies": {
     "chalk": "^3.0.0",
-    "jsdom": "^15.2.1"
+    "jsdom": "^16.5.0"
   }
 }
